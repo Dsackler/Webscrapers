@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
+#https://thebrokerlist.com/directory/california-commercial-real-estate-brokers
 
 URL = 'https://thebrokerlist.com/directory/california-commercial-real-estate-brokers'
 
