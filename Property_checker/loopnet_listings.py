@@ -23,7 +23,6 @@ def loop_through_properties(soup):
         pagesoup = BeautifulSoup(page.content, 'html.parser')
         for record in property_looper(pagesoup):
             records.append(record)
-            print(f'new:::::::::{record}')
         number = number + 1
 
     write_to_file(records)
@@ -102,7 +101,7 @@ def property_looper(soup):
         
         
         record = (propert, price, lot_size, price_per_sf, rentable_building_area, sale_type, number_stories, cap_rate, year_br, sale_conditions, parking_ratio, property_type, clear_ceiling_height, drive_in_doors, building_class, URL)
-        print(record)
+        print(propert)
         records.append(record)
     return records
             
