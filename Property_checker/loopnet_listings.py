@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-#https://www.loopnet.com/search/industrial-properties/los-angeles-ca/for-sale/?sk=386b4cc60cf2318989aad7d8be7d5d4c&bb=k-w4sqn-qNjs2-613D
 
 URL = 'https://www.loopnet.com/search/industrial-properties/los-angeles-ca/for-sale/?sk=386b4cc60cf2318989aad7d8be7d5d4c&bb=k-w4sqn-qNjs2-613D'
 
